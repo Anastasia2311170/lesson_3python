@@ -2,7 +2,7 @@ from Address import Address
 from Mailing import Mailing
 
 from_addr = Address("456276", "Самара", "Куйбышевская", "110", "1")
-to_addr = Address("190000", "Санкт-Петербург", "Невский проспект", "2", "20")
+to_addr = Address("190000", "Рязань", "Невский проспект", "2", "20")
 
 my_mailing = Mailing(
     to_address=to_addr,
